@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FFC601D25B600DC00D184ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC601C25B600DC00D184ED /* AppDelegate.swift */; };
+		7FFC601F25B600DC00D184ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC601E25B600DC00D184ED /* SceneDelegate.swift */; };
+		7FFC602125B600DC00D184ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC602025B600DC00D184ED /* ViewController.swift */; };
+		7FFC602425B600DC00D184ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC602225B600DC00D184ED /* Main.storyboard */; };
+		7FFC602625B600DD00D184ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC602525B600DD00D184ED /* Assets.xcassets */; };
+		7FFC602925B600DD00D184ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC602725B600DD00D184ED /* LaunchScreen.storyboard */; };
+		7FFC603425B600DD00D184ED /* VoltageFallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC603325B600DD00D184ED /* VoltageFallTests.swift */; };
+		7FFC603F25B600DD00D184ED /* VoltageFallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC603E25B600DD00D184ED /* VoltageFallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFC603025B600DD00D184ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFC601125B600DC00D184ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFC601825B600DC00D184ED;
+			remoteInfo = VoltageFall;
+		};
+		7FFC603B25B600DD00D184ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FFC601125B600DC00D184ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFC601825B600DC00D184ED;
+			remoteInfo = VoltageFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FFC601925B600DC00D184ED /* VoltageFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltageFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC601C25B600DC00D184ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FFC601E25B600DC00D184ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FFC602025B600DC00D184ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FFC602325B600DC00D184ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FFC602525B600DD00D184ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FFC602825B600DD00D184ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FFC602A25B600DD00D184ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC602F25B600DD00D184ED /* VoltageFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltageFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC603325B600DD00D184ED /* VoltageFallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltageFallTests.swift; sourceTree = "<group>"; };
+		7FFC603525B600DD00D184ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC603A25B600DD00D184ED /* VoltageFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltageFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC603E25B600DD00D184ED /* VoltageFallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltageFallUITests.swift; sourceTree = "<group>"; };
+		7FFC604025B600DD00D184ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FFC601625B600DC00D184ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC602C25B600DD00D184ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC603725B600DD00D184ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FFC601025B600DC00D184ED = {
+			isa = PBXGroup;
+			children = (
+				7FFC601B25B600DC00D184ED /* VoltageFall */,
+				7FFC603225B600DD00D184ED /* VoltageFallTests */,
+				7FFC603D25B600DD00D184ED /* VoltageFallUITests */,
+				7FFC601A25B600DC00D184ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FFC601A25B600DC00D184ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC601925B600DC00D184ED /* VoltageFall.app */,
+				7FFC602F25B600DD00D184ED /* VoltageFallTests.xctest */,
+				7FFC603A25B600DD00D184ED /* VoltageFallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FFC601B25B600DC00D184ED /* VoltageFall */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC601C25B600DC00D184ED /* AppDelegate.swift */,
+				7FFC601E25B600DC00D184ED /* SceneDelegate.swift */,
+				7FFC602025B600DC00D184ED /* ViewController.swift */,
+				7FFC602225B600DC00D184ED /* Main.storyboard */,
+				7FFC602525B600DD00D184ED /* Assets.xcassets */,
+				7FFC602725B600DD00D184ED /* LaunchScreen.storyboard */,
+				7FFC602A25B600DD00D184ED /* Info.plist */,
+			);
+			path = VoltageFall;
+			sourceTree = "<group>";
+		};
+		7FFC603225B600DD00D184ED /* VoltageFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC603325B600DD00D184ED /* VoltageFallTests.swift */,
+				7FFC603525B600DD00D184ED /* Info.plist */,
+			);
+			path = VoltageFallTests;
+			sourceTree = "<group>";
+		};
+		7FFC603D25B600DD00D184ED /* VoltageFallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC603E25B600DD00D184ED /* VoltageFallUITests.swift */,
+				7FFC604025B600DD00D184ED /* Info.plist */,
+			);
+			path = VoltageFallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FFC601825B600DC00D184ED /* VoltageFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC604325B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFall" */;
+			buildPhases = (
+				7FFC601525B600DC00D184ED /* Sources */,
+				7FFC601625B600DC00D184ED /* Frameworks */,
+				7FFC601725B600DC00D184ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoltageFall;
+			productName = VoltageFall;
+			productReference = 7FFC601925B600DC00D184ED /* VoltageFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FFC602E25B600DD00D184ED /* VoltageFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC604625B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFallTests" */;
+			buildPhases = (
+				7FFC602B25B600DD00D184ED /* Sources */,
+				7FFC602C25B600DD00D184ED /* Frameworks */,
+				7FFC602D25B600DD00D184ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFC603125B600DD00D184ED /* PBXTargetDependency */,
+			);
+			name = VoltageFallTests;
+			productName = VoltageFallTests;
+			productReference = 7FFC602F25B600DD00D184ED /* VoltageFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FFC603925B600DD00D184ED /* VoltageFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFC604925B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFallUITests" */;
+			buildPhases = (
+				7FFC603625B600DD00D184ED /* Sources */,
+				7FFC603725B600DD00D184ED /* Frameworks */,
+				7FFC603825B600DD00D184ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FFC603C25B600DD00D184ED /* PBXTargetDependency */,
+			);
+			name = VoltageFallUITests;
+			productName = VoltageFallUITests;
+			productReference = 7FFC603A25B600DD00D184ED /* VoltageFallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FFC601125B600DC00D184ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					7FFC601825B600DC00D184ED = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					7FFC602E25B600DD00D184ED = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 7FFC601825B600DC00D184ED;
+					};
+					7FFC603925B600DD00D184ED = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 7FFC601825B600DC00D184ED;
+					};
+				};
+			};
+			buildConfigurationList = 7FFC601425B600DC00D184ED /* Build configuration list for PBXProject "VoltageFall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FFC601025B600DC00D184ED;
+			productRefGroup = 7FFC601A25B600DC00D184ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FFC601825B600DC00D184ED /* VoltageFall */,
+				7FFC602E25B600DD00D184ED /* VoltageFallTests */,
+				7FFC603925B600DD00D184ED /* VoltageFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFC601725B600DC00D184ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC602925B600DD00D184ED /* LaunchScreen.storyboard in Resources */,
+				7FFC602625B600DD00D184ED /* Assets.xcassets in Resources */,
+				7FFC602425B600DC00D184ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC602D25B600DD00D184ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC603825B600DD00D184ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FFC601525B600DC00D184ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC602125B600DC00D184ED /* ViewController.swift in Sources */,
+				7FFC601D25B600DC00D184ED /* AppDelegate.swift in Sources */,
+				7FFC601F25B600DC00D184ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC602B25B600DD00D184ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC603425B600DD00D184ED /* VoltageFallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFC603625B600DD00D184ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFC603F25B600DD00D184ED /* VoltageFallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FFC603125B600DD00D184ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFC601825B600DC00D184ED /* VoltageFall */;
+			targetProxy = 7FFC603025B600DD00D184ED /* PBXContainerItemProxy */;
+		};
+		7FFC603C25B600DD00D184ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FFC601825B600DC00D184ED /* VoltageFall */;
+			targetProxy = 7FFC603B25B600DD00D184ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FFC602225B600DC00D184ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC602325B600DC00D184ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FFC602725B600DD00D184ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FFC602825B600DD00D184ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFC604125B600DD00D184ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FFC604225B600DD00D184ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FFC604425B600DD00D184ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FFC604525B600DD00D184ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FFC604725B600DD00D184ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltageFall.app/VoltageFall";
+			};
+			name = Debug;
+		};
+		7FFC604825B600DD00D184ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltageFall.app/VoltageFall";
+			};
+			name = Release;
+		};
+		7FFC604A25B600DD00D184ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltageFall;
+			};
+			name = Debug;
+		};
+		7FFC604B25B600DD00D184ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VoltageFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderKudryashov.VoltageFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoltageFall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FFC601425B600DC00D184ED /* Build configuration list for PBXProject "VoltageFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC604125B600DD00D184ED /* Debug */,
+				7FFC604225B600DD00D184ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC604325B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC604425B600DD00D184ED /* Debug */,
+				7FFC604525B600DD00D184ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC604625B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC604725B600DD00D184ED /* Debug */,
+				7FFC604825B600DD00D184ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFC604925B600DD00D184ED /* Build configuration list for PBXNativeTarget "VoltageFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFC604A25B600DD00D184ED /* Debug */,
+				7FFC604B25B600DD00D184ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FFC601125B600DC00D184ED /* Project object */;
+}
