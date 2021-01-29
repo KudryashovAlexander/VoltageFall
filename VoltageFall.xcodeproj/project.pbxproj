@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F673DA525B8A25C00A13F49 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F673DA425B8A25C00A13F49 /* data.swift */; };
 		7FFC601D25B600DC00D184ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC601C25B600DC00D184ED /* AppDelegate.swift */; };
 		7FFC601F25B600DC00D184ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC601E25B600DC00D184ED /* SceneDelegate.swift */; };
 		7FFC602125B600DC00D184ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC602025B600DC00D184ED /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F673DA425B8A25C00A13F49 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		7FFC601925B600DC00D184ED /* VoltageFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltageFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFC601C25B600DC00D184ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FFC601E25B600DC00D184ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				7FFC601C25B600DC00D184ED /* AppDelegate.swift */,
 				7FFC601E25B600DC00D184ED /* SceneDelegate.swift */,
 				7FFC602025B600DC00D184ED /* ViewController.swift */,
+				7F673DA425B8A25C00A13F49 /* data.swift */,
 				7FFC602225B600DC00D184ED /* Main.storyboard */,
 				7FFC602525B600DD00D184ED /* Assets.xcassets */,
 				7FFC602725B600DD00D184ED /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				7FFC602125B600DC00D184ED /* ViewController.swift in Sources */,
 				7FFC601D25B600DC00D184ED /* AppDelegate.swift in Sources */,
 				7FFC601F25B600DC00D184ED /* SceneDelegate.swift in Sources */,
+				7F673DA525B8A25C00A13F49 /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
